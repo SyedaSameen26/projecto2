@@ -1,6 +1,6 @@
 import streamlit as st
-st.title("Unit Converter App")
-st.markdown("###converts lenght,weight ans time Instantly")
+st.title("🌍Unit Converter App")
+st.markdown("### converts lenght,weight ans time Instantly")
 st.write("WELCOME! select a category,enter a value and get the results")
 category=st.selectbox("choose a category",["Lenght","Weight","Time"])
 def convert_units(category,value,unit):
